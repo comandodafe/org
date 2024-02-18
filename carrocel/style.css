@@ -27,8 +27,44 @@ iframe{
     font-size: .95em;
     background:rgba(0, 0, 0, .5);
 }
+.TitulodoVideo-2{
+    color: #fefefe;
+    line-height: 1.05em;
+    width: 100vw;
+    height: 10vh;
+    margin: -3.8px 0 0 -10px;
+    padding: 0 15px 0 15px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-size: .95em;
+    background:rgba(207, 0, 0, 0.5);
+}
+.TitulodoVideo-2 img{
+    width: 5vw;
+    opacity: 1;
+    margin:0 1.3vw 0 1vw;
+    animation: piscar 1s infinite;
+}
+.TitulodoVideo-2 span{
+    font: 2.8vw times;
+    font-weight: 900;
+    letter-spacing: .3vw;
+}
+@keyframes piscar {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.3;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 
 @media (max-width:360px){
     .TitulodoVideo{font-size: .8em;}
+    .TitulodoVideo-2{font-size: .8em;}
     iframe{}
 }
