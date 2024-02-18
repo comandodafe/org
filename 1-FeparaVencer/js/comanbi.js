@@ -1,0 +1,1 @@
+for(var comanbi=document.getElementById("comanbi"),cartacard=comanbi.getElementsByClassName("cartacard"),i=0;i<cartacard.length;i++)cartacard[i].addEventListener("click",function(){var a=document.getElementsByClassName("active");a[0].className=a[0].className.replace(" active",""),this.className+=" active"});
