@@ -1,0 +1,1 @@
+for(var comanbi=document.getElementById("comanbi"),ativar=comanbi.getElementsByClassName("ativar"),i=0;i<ativar.length;i++)ativar[i].addEventListener("click",function(){var a=document.getElementsByClassName("active");a[0].className=a[0].className.replace(" active",""),this.className+=" active"});

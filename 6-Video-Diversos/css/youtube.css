@@ -1,0 +1,161 @@
+.Dplay{
+  background: rgba(255, 255, 255, .1) url(../../img/fundo.png) repeat;
+  background-size: 1.8%;
+}
+.Dplay .definir{
+  width: 40%;
+  padding-bottom: 25%;
+  position: relative;
+  margin: 0 auto;
+  background-color: beige;
+}
+.Dplay iframe{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.cabecalho{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, .1) url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZrTFrHmhYtjhyphenhyphenrazoEkH7xbl6bwrKr_9e5b2UsNocXr-2RD8RMBolmtDAfwni89xoEmqlvB2zTNm50C0aLsul7oWdeQgzuMCrmNM0RtLbM7l7_MhBH0aZ1IrJOLT1-HsOMjiM4Pdqsc2ryRa6PHyLBujlWrgnFe3Y1FbNo6e8Q7pC_vjV9Tc3Xj6CirE/s1136/fundopng.png) repeat;
+  background-size:6%;
+}
+.cabecalho .playfram{
+  overflow: hidden;
+  position:relative;
+  width:584px;
+  padding-bottom:28.97%;
+  background: url(../../img/Carregando.png) 50% 50% no-repeat;
+  background-size: 100%;
+}
+.cabecalho .playfram iframe{
+  width:100%;
+  height:100%;
+  position:absolute;
+}
+
+/*CARD
+--------------------------*/
+.cardpost{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  text-align: center;
+  padding:0;
+  margin:10px auto 0 auto;
+}
+.cardpost .card{
+  transform: translate(0);
+  width: 250px;
+  height: 180px;
+  margin:0 10px 15px 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  transition:all .3s linear;
+  position:relative;
+}
+.card:hover{
+  position:relative;
+  z-index:1;
+ padding:0 10px;
+}
+.cardpost .card a{
+  width:100%;
+  height:100%;
+  left:0;
+  position:absolute;
+}
+.card .tam{
+  position:fixed;
+  padding:1% 2%;
+  right:0;
+  bottom:22%;
+  font-size:.85em;
+  color:#fff;
+  background:rgba(0, 0, 0, .7);
+}
+.card.active{
+  position:relative;
+  z-index:1;
+  filter: grayscale(1);
+}
+.card.active .invi{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position:absolute;
+  color:#fff;
+  top:0;
+  left:0;
+  font-weight:bold;
+  z-index:111;
+  background: rgba(0, 0, 0, .6) url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8Bb_4VRV6FKkbZVq44BKNf4xxaUn0bR2zs3FpaVLGGnvmOKp6qBiIthLlpTPfdl4Prx4tnKXfQs40psr7T0B2J6ITI1iYL_mWJFc4zun66jTqpZltf4KGSyHeV-LbE3feApToDU1di2Rf1gF36ea_Gcbf_4pM8HA-BWvssRhkJgXg3YKeLmrlZZWpRFs/s20/picasion.com_4de8f196e1509dda45026e604d50de0f.gif) 50% 38% no-repeat;
+  background-size:6%;
+}
+.card .invi{display:none}
+.card.active .int div{margin:0 3%;}
+.cardpost .card .int{
+  width:100%;
+  height:20%;
+  font-family: 'Times New Roman', Times, serif;
+  position:absolute;
+  color:#fff;
+  bottom:0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  line-height:1.1em;
+  font-weight:bold;
+  text-align:left;
+  font-size:.93em;
+}
+.cardpost .card .int div{margin:0 8px;}
+.tablinke {
+  padding:.3% 1%;
+  color: #fff;
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin:15px 2px 0 2px;
+  font-family:Cambria;
+  font-size:1.2em;
+  background-color: rgba(255,255,255,0.1);
+}
+.tablinke:hover {
+  background-color: rgba(1, 34, 164, 0.53);
+}
+.subirt {
+  padding:.3% 1%;
+  color: #fff;
+  text-align: center;
+  border: none;
+  outline: none;
+  margin:0 2px 0 2px;
+  font-family:Cambria;
+  font-size:1em;
+  background-color: rgba(0, 0, 0, .1);
+}
+#comanbi{margin-bottom:25px;}
+.paginar{display:none}
+.paginar2{display:block}
+.tablink2 {
+  padding:.3% 1%;
+  color: #fff;
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin:15px 2px 0 2px;
+  font-family:Cambria;
+  font-size:1.2em;
+  background-color: rgba(1, 34, 164, 0.53);
+}
+@media (max-width:900px){.cardpost{width:100% !important;display: flex !important;flex-wrap: wrap !important;justify-content: center !important;align-items: center !important;text-align: center !important;margin:2% auto !important;}.cardpost .card{width:80%;padding-bottom:56% !important;border-radius:0;}.card .tam{position:fixed;bottom:19.5%;}.cardpost #patrocinio{display:none;}.paginar{display:block !important;}.paginar2{display:none;}.Dplay .definir{width:100%;padding-bottom:62.5%}}

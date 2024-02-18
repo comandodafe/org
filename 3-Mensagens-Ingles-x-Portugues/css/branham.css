@@ -1,0 +1,285 @@
+/*--- Extenso ---*/
+.extenso{
+    background: rgba(255, 255, 255, .1);
+}
+/*--- Resenha ---*/
+.resenha{
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-column-gap: 1px;
+    grid-row-gap: 0;
+    margin-top: 0;
+    box-sizing: border-box;
+    background:linear-gradient(to right, rgba(252, 229, 168, 0.3), rgba(252, 229, 168, 0.8), rgba(252, 229, 168, 0.1));
+}
+/*--- Caixote ---*/
+.resenha .caixote {
+    color: white;
+    position: relative;
+    padding-bottom: 40%;
+    transition:all .3s linear;
+    font-family: 'poppins', sans-serif;
+}
+/*--- Table ---*/
+.resenha .caixote table{
+    position: absolute;
+    margin: 0;
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+/* Estojo */
+.estojo div{
+    font-size: 18px;
+    padding: 0 5%;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-bottom: 3%;
+    text-shadow: 0px 1px 1px rgb(2, 150, 78);
+}
+/* Bitola */
+.branham{
+    background: url(../img/William-M-B.png) no-repeat;
+    background-size: 50.5%;
+    background-position: right top 50%;
+}
+/* linha-longa */
+.linha-longa{
+    padding: 11px 0;
+    background:linear-gradient(to right, rgba(255, 255, 255, .1), rgb(255, 255, 255), rgba(255, 255, 255, .1));
+}
+.icon-radio{
+    font-size: 80px;
+    color: white;
+    margin-right: 2%;
+}
+/* Jplay */
+.janela .Jplay{
+    text-align: center;
+    color: white;
+    position:relative;
+    border: 3px solid rgba(113, 205, 255, .2);
+    border-radius: 5%;
+    padding-bottom: 15%;
+    transition:all .3s linear;
+    font-family: 'poppins', sans-serif;
+    box-shadow: 0 8px 22px rgba(0,0,0,0.25), 0 4px 4px rgba(0,0,0,0.25);
+    background:rgba(255, 255, 255, .1) url(../img/WMB.png) no-repeat;
+    background-size: 37%;
+    background-position: left bottom;
+}
+.Jplay:hover{
+    position:relative;
+    z-index:1;
+    box-shadow: 0px 10px 36px rgb(0, 0, 0);
+    }
+.Jplay.active{
+    position:relative;
+    z-index:1;
+    border: 3px solid rgba(212, 238, 117, 0.694);
+    filter: grayscale(0.50);
+    box-shadow: 0px 5px 30px rgb(227, 245, 184);
+}
+/* letreiro */
+.letreiro{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    font-size:15px;
+    padding: 0 5%;
+    height:55px;
+    border:0px;
+    font-weight: bold;
+    color: #000;
+    border-radius: 6% 6% 0 0;
+    line-height:1.1em;
+    text-shadow: 0px 1px 1px rgb(127, 127, 127);
+    background:linear-gradient(to right, rgba(252, 229, 168, 0.3), rgba(252, 229, 168, 0.8), rgba(252, 229, 168, 0.3));
+}
+/* Data */
+.tempo{
+    font-size: 12px;
+    line-height: 1.5em;
+    color: black;
+    font-weight: bold;
+    letter-spacing: .5em;
+    box-shadow: 0 .2em .2em rgba(0, 0, 0, 0.3);
+    background:linear-gradient(to right, rgba(255, 255, 255, .1), rgb(255, 255, 255, .8), rgba(255, 255, 255, .1));
+}
+/* Numero */
+.quantia{
+    display:grid;
+    align-items: center;
+    position:absolute;
+    left:0;
+    top:55%;
+    width:22%;
+    line-height: 1.6em;
+    font-size:.85em;
+    text-shadow: 0px 1px 1px rgb(0, 0, 0);
+    background:rgba(113, 205, 255, .3);
+}
+/* Dplay */
+.Dplay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height: 70%;
+    margin:auto;
+}
+/* Download */
+.puxar a{
+    color: white;
+    display: block;
+    position: absolute;
+    width: 100%;
+    border: 0;
+    bottom: 0;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1.7em;
+    letter-spacing: .1em;
+    border-radius: 50% 50% 8% 8%;
+    text-shadow: 0 -.1em .2em rgba(0, 0, 0);
+    box-shadow: 0 -.2em .2em rgba(0, 0, 0, 0.3);
+    background:linear-gradient(to right, rgba(255, 255, 255, .1), rgba(36, 33, 33, 0.9), rgba(255, 255, 255, .1));
+}
+.Jplay .puxar a:hover{
+    color: white;
+    background:linear-gradient(to right, rgba(255, 255, 255, .1), rgba(242, 32, 32, 0.8), rgba(255, 255, 255, .1));
+}
+/*Numeral-Cima*/
+.numeral-cima ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:0;
+    box-sizing: border-box;
+    list-style:none;
+    text-align: center;
+}
+.numeral-cima ul li{
+    margin: 1.5% .3% -.5% .3%;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: block;
+    background: rgba(0, 0, 0, 0.1) !important;
+}
+.numeral-cima ul li:nth-child(2){font-size: 13px;}
+.numeral-cima ul li a{
+    color: rgb(255, 255, 255);
+    display: block;
+    white-space: nowrap;
+    padding: 0 11px;
+    
+}
+.numeral div{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin: .7% 0 .5% 0;
+}
+.numeral ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    list-style:none;
+    text-align: center;
+}
+.numeral ul li{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 .15% 0 .15%;
+    border-radius: 15%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: block;
+    background: rgba(255, 255, 255, .1);
+}
+.numeral ul li a{
+    color: white;
+    display: block;
+    white-space: nowrap;
+    padding: 3px 11px;
+    
+}
+.numeral .preto{
+    background-color: rgba(41, 37, 37, 0.5);
+}
+.numeral .criando{
+    background-color: rgba(150, 173, 63, 0.5);
+}
+
+.tablink {
+    padding:.3% 1%;color: #fff;
+    text-align: center;
+    border: none;
+    outline: none;cursor: pointer;
+    margin:15px 2px 0 2px;
+    font-family:Cambria;
+    font-size:1.2em;
+    background-color: rgba(255,255,255,0.1);
+  }
+  .tablink:hover {
+    background-color: rgba(1, 34, 164, 0.53);
+  }
+  .subirt {
+    padding:.3% 1%;
+    color: #fff;
+    text-align: center;
+    border: none;
+    outline: none;
+    margin:0 2px 0 2px;
+    font-family:Cambria;
+    font-size:1em;
+    background-color: rgba(0, 0, 0, .1);
+  }
+  .paginar{display:none}
+  .paginar2{display:block}
+  .tablink2 {
+    padding:.3% 1%;
+    color: #fff;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin:15px 2px 0 2px;
+    font-family:Cambria;
+    font-size:1.2em;
+    background-color: rgba(1, 34, 164, 0.53);
+  }
+  .paginanum{
+    margin-top:10px;
+    color:#fff;
+  }
+
+@media (max-width:900px){
+    .mobill{display: none;}
+    .resenha .caixote {
+        padding-bottom: 40% !important;
+        background: url(../img/William-M-B.png) 50% 50% no-repeat;
+        background-size: 50.5%;
+    }
+    .bitola img{display: none !important;}
+    .icon-radio{font-size: 4em;}
+    .numeral .descart{display: none !important;}
+    .numeral .cel{margin: 0 3% 0 3%;font-size: 1.3em;}
+    .numeral-cima ul{margin: -2.1% 0 -2.1% 0 !important;}
+    .numeral-cima ul li{font-size: 1.2em;}
+    .paginar{display:block !important;margin-bottom: 15%;}
+    .paginar2{display:none;}
+    .paracp{display:none !important;}
+}
+
+@media (max-width:630px){
+   .Jplay{padding-bottom: 30%  !important;}
+}

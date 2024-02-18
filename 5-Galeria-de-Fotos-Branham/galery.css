@@ -1,0 +1,1478 @@
+/*CARROCEL*/
+.carrocel .cabecalho{
+    padding-bottom:22em;
+    position:relative;
+    overflow:hidden;
+    background:rgba(255, 255, 255, .2) url('img/2023-04-26_173439.png') center center no-repeat;
+    background-size:cover;
+  }
+  .carrocel .cabecalho .galery{
+    width:85%;
+    height:100%;
+    position:absolute;
+    left:0;
+    right:0;
+    margin:auto;
+    overflow:hidden !important;
+    background: url('img/d3ca5794-0e31-412c-83a1-379186434aa7.jpg') 50% 10% no-repeat;
+    background-size:80%;
+  }
+
+  /*--- Extenso ---*/
+.extenso{
+  background: rgba(255, 255, 255, .1);
+}
+/*--- Resenha ---*/
+.resenha{
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-column-gap: 1px;
+  grid-row-gap: 0;
+  margin-top: 0;
+  box-sizing: border-box;
+  background: url(img/2023-04-26_173439.png) no-repeat;
+  background-size: cover;
+}
+.resenha img{
+  width: 70%;
+  position: relative;
+  margin: 0 auto;
+}
+/* linha-longa */
+.linha-longa{
+  padding: 11px 0;
+  background:linear-gradient(to right, rgba(255, 255, 255, .1), rgb(255, 255, 255), rgba(255, 255, 255, .1));
+}
+
+  /*CARD*/
+  .cardfoto{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:0;
+    padding:0;
+  }
+  .cardfoto .cardgalery{
+    display: flex;
+    transform: translate(0);
+    width: 220px;
+    height: 230px;
+    margin:10px 5px 5px 5px;
+    padding:0;
+    box-sizing: border-box;
+    border: 3px solid rgba(113, 205, 255, .2);
+    border-radius: 5%;
+    overflow: hidden;
+    transition:all .5s linear;
+    box-shadow: 0 8px 22px rgba(0,0,0,0.25), 0 4px 4px rgba(0,0,0,0.25);
+    background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKslunWqPXDEBHbKYxqKBKDuYt5eFe-A_Ce-tA4DIIA6TOM5jhnM2boKDhqHCav8rPXuH54NMwDW5Vfn8UCNcbOBRWPwkT38l_SAlP64uEEPYEPmQiAnA3_1wt9uhHBnwzwCbGnKsxaYjweWGyKb5OSyCbOfouuqrpVjSTtey8eCwU7-vWsF1NCUwn/s48/loading.gif) no-repeat;
+    background-size:20%;
+    background-position:50% 50%;
+  }
+  .cardgalery:hover{
+    opacity:.7;
+    box-shadow: 0px 10px 36px rgb(0, 0, 0);
+  }
+  .cardfoto .cardgalery a{color:#000}
+  .cardfoto .cardgalery .linsk{
+    position:absolute;
+    z-index:2;
+    bottom:0;
+    width: 100%;
+    padding:2.5% 0 1% 0;
+    border:0;
+    margin:0;
+    font-size:14px;
+    text-transform: uppercase;
+    box-shadow: 0 .2em .2em rgba(0, 0, 0, 0.3);
+    background:linear-gradient(to right, rgba(255, 255, 255, .1), rgb(255, 255, 255), rgba(255, 255, 255, .1));
+  }
+  .classis{
+    font-family:Lemon;
+    font-size:22px;
+    margin:20px 0 0 0;
+    color:#fff;
+    font-weight:normal;
+    text-transform: normal;
+  }
+  .tablinke {
+    padding:.3% 1%;color: #fff;
+    text-align: center;
+    border: none;
+    outline: none;cursor: pointer;
+    margin:15px 2px 0 2px;
+    font-family:Cambria;
+    font-size:1.2em;
+    background-color: rgba(255,255,255,0.1);
+  }
+  .tablinke:hover {
+    background-color: rgba(1, 34, 164, 0.53);
+  }
+  img-1 {
+    position:absolute;
+    display:block;
+    padding:2%;
+    width: 100%;
+    height:100%;
+    background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwPqGweTeNwiIXKXNmwhityF2aF2JVxwwzL5uPKodkq8ldGmV1f0visR4AyJk5UTIK1n5pbRHeHmxPGSdVAD8JucBC_RG7WTJMLsFDasH70EDwFFDA2jVVcEK751_J3CI8dqlzcqh9Gh-rfjcHx5v5ht7zotyRwRWlebf14ENIHqFrbXWZC696GHh9FQ/s150/Branham-1.jpg") no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+    }
+  img-2 {
+    position:absolute;
+    display:block;
+    padding:2%;
+    width: 100%;
+    height:100%;
+    background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdrPAGMj5Yoi84berfimL0-wwh24wOUEB0_vYv2xabJxvwitm5Rl4V1ehH2mwpFvleW6zHMUmHJwtkc_NB2BG1xNbxw1X_77bDT4v0hhZuOh3EDJK7_pMGiejxSMzaKdpHwDAGiKRSq7C7rCvoS00_5FT5wpIQcIUt-8iu1-7QJJLG1PLNiQ6uyUNn3A/s150/Branham-2.jpg") no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+    }
+  img-3{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqsAnewjKq6jt6BDE69YhICfm5Hr2-Cm9S4e7Euz5dGbSgfOQsy28EqLk1GqILgj5NNxCZPTZ-T_gU1K8IvjMLkzZxNz_F-9x3sJIV1Jf4MftQR4V_jZlQ1-DxBfUv6w9tPWbAX-m0xJN-NrEkDhciPqDSVm_5y2W92I8i_O2zZFdEKg9cQe5pPNRhWw/s209/Branham-3.jpg") no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-4{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQoKX2UodBtKBd4XX1vcH9SYWS_HOhYuAnf_zpdGz5k_mqtX0EV5hEGnqVXNfCl22uDvmLOQo-MHAgCk6eOGuE6D2U9HYya3-eTJ0bdB8-SYZg7_cRvH3SU96naRh4vpVj4_IAMfUaoPQdC6f-GhMT5odfPWjrlaWb2imgiH4ypvxHBUluHrEv2RklJw/s150/Branham-4.jpg") no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-5{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_mYW6LtnqITJpIB7Qb5J9UoR3zYE23gWLKVRmmdO-HuQWULxqAXTxbG1-w7979hfIQ9QTUv7819NZX6bu2hLdQzCW2smQqb2a7qoCf-_gJoBoxZ7CfzOiywwxYRnXh-TQlVehYO7e2Mb6H5sb-kaN10ABqxBj9reTyA6FrF6yMtrmjA5_HhjDsme5mA/s150/Branham-4.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-6{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsnX23nECojmFEV49xHtXS2eHKh2BX4rnPDpvg1ecwoYxZpZ3wlrt7FnQemHFIlqxbSH4NI4d4VVNIGmyiTcJZ4qhyT0jbByxIV6WHXwCMrIJeyoI5-2TycX_hTJFLB-NML_eiN191Zpx7W5vowV6R0uE60zR8-U_fWQqfnOcYR17Qo6TYsB0PGu4CkQ/s150/Branham-6.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-7{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYD05oSVKKCBbkAlBTphebDxP-N1Cd2qnGSTmHhFT372aSZJPdP_T_Vg-l_nLZc7Pdb62hhTQxvpD6My9NCy-T-dFhbg5WFPvaLvPsRLt0UtlPRhl5SK0bwW-0b3dO7JgZBTf6i-8horZFF_mGLMsU8MHKHXmVdzxuARlMXCrh9LzRWk4CrhW0W0y62w/s150/Branham-7.jpg​") no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-8{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7iBZcNfVkXaAxmEWykHxkI6eXmmN5DRlI85Y1-yva2Uc47vboeM-cz0wSM22T9tiRlcEPxAgcfAmUIrl4K5D_ChcJtaqoxSlPQ30R8G_MgnwU_piwYR_hBHiLSMV6oZ25Rx3iuxUdAb005tnXh5suNyKcwfZ1oa032vgyArMYjxy5Hr8l64xynn9hWQ/s207/Branham-8.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-9{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiimARGxiXBm9A-a5RhtG6wjqYBPfeTeIXrBGhpai2bfWMH1NY_wOqrzWADo25D8phAvwmsMfg044a9L3qijw_TelIpLSfP5cUQUPWEzI6gj95JLzgmNmGPzVwMcnBSw0kDfV0QEWdbya9cojKhUUxPJhI1YD4nRf3s7dDdCcYzvLAM11qfjcPl9_PL_A/s189/Branham-9.jpg​") no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-10{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdLpZCKBhFpV7LBaLNJ5XNoKdFbho9XYvgk024DXQQXFE70AEIF8WulZrdv-0HXjkLxYe024bhFfjSBTLydAuNBN2rM00ONBMZWdVXW32Ko1dNZzhhOtsN5ByR5CD76P0mYvbZqA7OaRAYPbBy13TkHdXy67wRQGJ7UzURhRl0JF04NXJ66IRQLIzbzQ/s191/Branham-10.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-11{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAXecYk9H1_bY4sSeAwvEcnOly1FIzH66-gk6yvqrximy815Y9Wm98rQ0C1QIn0qXpStl_JPqrCZ6PqxnPD2M7hd7OqL0nTo3MbqVl_h_ygPjlsN8yGEXHpeWdBL8A7zGBBgVJGv-czjkvw9Ex-oUJMoPGritCdBw4vX6gPFFjUQ2PYPO0dhenYED87Q/s210/Branham-11.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-12{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoRgdPohWY94CMZ3Z7hBmF7R95DigoUorvNfEg0utmTcZOU3wuGLOMmsS4AJDU6xVIrf8prakqMhvM-Ntjn4lWxo7BTAzu6cJ3JEcMpmSmi9NDxPZu5gsOlBvmR2H2O3QT4NMbDtpwUbLHm9mHsgLmNErzyb8JjH6LEAgXOGU36ZvyEtUyHmFYibnQ8Q/s223/Branham-12.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-13{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmEHbO0D0m9L-ZyKmHJIvqXBfqr72VJETkR22M68yeDpMUq0vAE2Vu9A57fQYFzQe9UwYxd1YUFa3oCF4RwEPeYJyQUdeuFu5hF2YFyaIGzaO7qqTR35FljWqCheBbZu_dkXx48CoHUH6VOOLQI0yIeIqJWn-e2ESbRKLNYRbARfHUcQjYmtn70dk9Mg/s210/Branham-13.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-14{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoVcU5NpvbSHedL-HFnIuQOUsc439ZkUYTA_hKepn-kjUlPkP3LwcHJeEsRunyfJJ3HZf3wkC7Cb2ARnGlQAjayVlsjBaN3NhOeOv6tGBggXQGbedaZMTZE_FIrnLCE_P4eRUuc_4g1eTD6mRPSdudxm-dsUoHITsU3T85KgOTwSYog1_pKBsV0Sp0Cg/s150/Branham-14.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-15{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4bnh_QqpdvbHNULm9KVUllGdRGo0kuG1QIATSnldPjDyrQ7mhjT8I9gb9Tpj1XvnlS95CkRTxtzvaPP7LbdFgEepScTOoXZM0HtxG-VpFqThODixPgwpWhFmUF3bhazMR8JfgO8Vva308UOFCQhj66JzlCOiyoqh-Dwk3AsCHeww-ymYCAWzNxyj6dA/s150/Branham-15.jpg​") no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-16{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgE9hhsWqJ6geP-zCPwt2oWehVxFjsS0-6P-9JbbTH5j3sqgyZQSI1uKRw1JV1ovk-ljPqgGyK9MOxZT-WRbiydsumCgeyxwtOf24mcdVbsjbEu3ytSQPLJ4yevl44p511mgI1NuqWsr1LmlrpTBtOeuikPDpqjpTkcRvK4IVXbFqpAYGN-d6Ne7r-55A/s150/Branham-16.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-17{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/017.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-18{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/018.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-19{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/019.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-20{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/020.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-21{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/021.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-22{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/022.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-23{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/023.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-24{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/024.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-25{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/025.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-26{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/026.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-27{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/027.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-28{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/028.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-29{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/029.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-30{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/030.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-31{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/031.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-32{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/032.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-33{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/033.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-34{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/034.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-35{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/035.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-36{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/036.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-37{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/037.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-38{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/038.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-39{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/039.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-40{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/040.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-41{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/041.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-42{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/042.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-43{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/043.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-44{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/044.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-45{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/045.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-46{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/046.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-47{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/047.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-48{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/048.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-49{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/049.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-50{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/050.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-51{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/051.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-52{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/052.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-53{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/053.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-54{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/054.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-55{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/055.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-56{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/056.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-57{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/057.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-58{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/058.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-59{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/059.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-60{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/060.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-61{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/061.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-62{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/062.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-63{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/063.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-64{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/064.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-65{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/065.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-66{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/066.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-67{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/067.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-68{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/068.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-69{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/069.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-70{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/070.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-71{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/071.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-72{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/072.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-73{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/073.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-74{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/074.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-75{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/075.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-76{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/076.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-77{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/077.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-78{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/078.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-79{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/079.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-80{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/080.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-81{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/081.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-82{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/082.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-83{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/083.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-84{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/084.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-85{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/085.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-86{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/086.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-87{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/087.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-88{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/088.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-89{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/089.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-90{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/090.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-91{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/091.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-92{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/092.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-93{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/093.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-94{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/094.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-95{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/095.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-96{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/097.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-97{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/098.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-98{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/099.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-99{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/100.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-100{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/101.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-101{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/102.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-102{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/103.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-103{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/104.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-104{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/105.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-105{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/106.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-106{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/107.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-107{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/108.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-108{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/109.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-109{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/110.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-110{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/111.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-111{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/112.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-112{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/113.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-113{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/114.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-114{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/115.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-115{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/116.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-116{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/117.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-117{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/118.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-118{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/119.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-119{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/120.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-120{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/121.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-121{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/122.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-122{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/123.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-123{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/124.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-124{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/125.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-125{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/126.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-126{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/127.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-127{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/128.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-128{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/129.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-129{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/130.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-130{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/thumbs/131.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-131{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://www.apalavraoriginal.org.br/fotos/wbranham/images/131.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+  img-132{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(https://archive.org/download/1_20210502_20210502_1626/130.jpg) no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+  }
+
+
+  @media (max-width:900px){
+    .carrocel .cabecalho{
+      width:100%;
+      padding-bottom:40%;
+      position:relative;
+      overflow-x:hidden;
+      background:rgba(255, 255, 255, .2) url('img/2023-04-26_173439.png') center center no-repeat;
+    background-size:cover;
+    }
+    .carrocel .cabecalho .galery{
+      width:100%;
+      height:100%;
+      position:absolute;
+      left:0;
+      right:0;
+      margin:auto;
+      overflow:hidden !important;
+      background:rgba(255, 255, 255, .2) url('img/d3ca5794-0e31-412c-83a1-379186434aa7.jpg') center center no-repeat;
+      background-size:cover;
+    }
+    .cardfoto{
+        width:100% !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+      }
+      .cardfoto .cardgalery{width: 45%;}
+      .resenha{
+        margin: 0;
+        padding: 0;
+      }
+      .resenha img{
+        width: 100%;
+        position: relative !important;
+        margin: 0 !important;
+      }
+  }

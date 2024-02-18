@@ -1,0 +1,153 @@
+/*--- Extenso ---*/
+.extenso{
+  background: rgba(255, 255, 255, .1);
+}
+/*--- Resenha ---*/
+.resenha{
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-column-gap: 1px;
+  grid-row-gap: 0;
+  margin-top: 0;
+  box-sizing: border-box;
+  background:linear-gradient(to right, rgba(252, 229, 168, 0.3), rgba(252, 229, 168, 0.8), rgba(252, 229, 168, 0.1));
+}
+/*--- Caixote ---*/
+.resenha .caixote {
+  color: white;
+  position: relative;
+  padding-bottom: 40%;
+  transition:all .3s linear;
+  font-family: 'poppins', sans-serif;
+}
+/*--- Table ---*/
+.resenha .caixote table{
+  position: absolute;
+  margin: 0;
+  border-collapse: collapse;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+/* Estojo */
+.estojo div{
+  font-size: 18px;
+  padding: 0 5%;
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  margin-bottom: 3%;
+  text-shadow: 0px 1px 1px rgb(2, 150, 78);
+}
+/* Bitola */
+.branham{
+  background: url(../img/William-M-B.png) no-repeat;
+  background-size: 50.5%;
+  background-position: right top 50%;
+}
+/* linha-longa */
+.linha-longa{
+  padding: 11px 0;
+  background:linear-gradient(to right, rgba(255, 255, 255, .1), rgb(255, 255, 255), rgba(255, 255, 255, .1));
+}
+.reta{
+    position:relative;
+    width:1000px;
+    margin:10px auto 10px auto;
+    text-align:center;
+    color:rgba(255, 255, 255);
+    background:rgba(255, 255, 255, 0);
+  }
+  .reta thead tr{
+    line-height:2em;
+    background:rgba(34, 34, 34, .6);
+  }
+  .reta thead tr th:nth-child(1){
+    width:14%;
+    border-right:2px solid rgba(255, 255, 25, .1);
+  }
+  .reta thead tr th:nth-child(2){
+    width:74%;
+    border-right:2px solid rgba(255, 255, 255, .1);
+  }
+  .reta thead tr th:nth-child(3){
+    width:12%;
+    border-left:2px solid rgba(255, 255, 255, .1);
+  }
+  .reta tbody tr{
+    font-size:17px;
+    line-height:1.9em;
+    background-image: linear-gradient(to right, rgb(255, 255, 255, 0), rgba(22, 168, 3, 0));
+  }
+  .reta tbody tr:hover{
+    font-style:italic;
+    background-image: linear-gradient(to right, rgb(0, 98, 255), rgba(190, 49, 49, .99));
+  }
+  .reta tbody td{
+    padding:0 10px;
+    border:2px solid rgba(34, 34, 34, .2);
+  }
+  .reta .pincel{
+    background-image: linear-gradient(to right, rgb(0, 98, 255, 0), rgba(255, 255, 255, .1));
+  }
+  .reta tbody td:nth-child(2){
+    text-align:left;
+  }
+  .trt.active{
+    font-style:italic;
+    font-weight:bold;
+    background-image: linear-gradient(to right, rgb(0, 98, 255), rgba(190, 49, 49, .99));
+  }
+  .reta tbody td:nth-child(3) a{
+    display:block;
+    color:#fff;
+    width:100%;
+    border:0;
+  }
+  .classis{
+    font-size:19px;
+    margin:20px 0 0 0;
+    color:#fff;
+    font-weight:bold;
+    text-transform: uppercase;
+  }
+  .tablink {
+    padding:1% 2%;
+    color: #fff;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top:10px;
+    font-family:Cambria;
+    font-size:0.95em;
+    background-color: rgba(255,255,255,0.1);
+  }
+  .tablink:hover {
+    background-color: rgba(1, 34, 164, 0.53);
+  }
+  .tabcontent {
+    color: white;
+    display: none;
+  }
+  .reta .trt .fa-calendar-days{
+    float:left;
+    line-height:1.7em;
+  }
+  #tb1{margin-bottom:80px;}
+
+  @media (max-width:900px){
+    .reta{width:90% !important;}
+    .reta thead{display:none !important;}
+    .reta tbody td:nth-child(1){display:none !important;}
+    .reta tbody tr{width:100% !important;display:block !important;font-size:.95em !important;}
+    .reta tbody tr td{width:99% !important;padding:0!important;display:block !important;}
+    .reta tbody tr td:nth-child(2){padding:0!important;text-align:center !important;}
+    .classis{font-size:.8em;}
+    .carrocel .texto span{display:none}
+    .carrocel .texto{padding: 20% 0; background:rgba(255, 255, 255, .5) url('img/Branham-mobille.png') 50% 50% no-repeat;background-size:160%;}
+  }
