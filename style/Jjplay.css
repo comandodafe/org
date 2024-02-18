@@ -1,0 +1,328 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  height:100vh;
+  background-image: linear-gradient(to right, rgb(0, 61, 159), rgba(159, 36, 36, 0.8)) !important;
+  }
+.Jjplay{
+    display: flex;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin: 0;
+    background: rgba(255, 255, 255, .1);
+}
+.rec{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding:10px 0;
+  width: 100%;
+  background:linear-gradient(to right, rgba(255, 255, 255, .1), rgb(255, 255, 255), rgba(255, 255, 255, .1));
+}
+.Jjplay .campo-left,
+.Jjplay .campo-right{
+    position: relative;
+    width: 25%;
+}
+.Jjplay .campo-left .capa{
+    width: 100%;
+    height: 36.9%;
+    margin-bottom: 1%;
+    background: url(https://branham.org/azure/branham/d3ca5794-0e31-412c-83a1-379186434aa7.jpg) 50% 50% no-repeat;
+    background-size: 100%;
+}
+.Jjplay .campo-left .campoativo{
+    display: grid;
+    height: 7.57%;
+    line-height: 1.7em;
+    padding-left: 9.2%;
+    font-size: .9em;
+    border-bottom: 1px solid #21265f;
+    background: rgba(255, 255, 255, 0.1) url(../img/logo.png) no-repeat;
+    background-size: 7.4%;
+    background-position: left 50%;
+}
+.Jjplay .campo-left .campoativo.active{
+    padding-left:28px;
+    display:block;
+    background:rgb(119, 4, 4, .3) url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimiHkNONDtGfKG5rBtKOh1HC8heKC7m2HjI-DpdKrQz_kcHNu2MCarHLJwXgMq3A76xVzGbHmfc8ew-3e913Wmk8e_ok37_6r6kCZZHNZVSbc8V-hzzbiPSGtt2czqRugJLMIx9-ybP4RQc58Lx12uJycWWRG5yeG-rWSNvNklp-Y7xTS7Dv591k4_VQ/s81/gif.gif) no-repeat;
+    background-size:20px;
+    background-position:left 5px center;
+    color:white;
+  }
+  .Jjplay .campo-right .campoativo.active .ttp{display: none;}
+  .Jjplay .campo-right a.active{padding-left: 28px !important;}
+  .Jjplay .campo-right .campoativo.active{
+    padding-left:35px;
+    display:block;
+    background:rgb(119, 4, 4, .3) url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimiHkNONDtGfKG5rBtKOh1HC8heKC7m2HjI-DpdKrQz_kcHNu2MCarHLJwXgMq3A76xVzGbHmfc8ew-3e913Wmk8e_ok37_6r6kCZZHNZVSbc8V-hzzbiPSGtt2czqRugJLMIx9-ybP4RQc58Lx12uJycWWRG5yeG-rWSNvNklp-Y7xTS7Dv591k4_VQ/s81/gif.gif) no-repeat;
+    background-size:20px;
+    background-position:left 5px center;
+    color:white;
+  }
+.Jjplay .campo-center{
+    position: relative;
+    width: 50%;
+    margin: 0;
+    padding-bottom: 31.2%;
+    background: url(../img/Carregando.png) no-repeat;
+    background-size: 100%;
+}
+.Jjplay .campo-center iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.Jjplay .campo-right .direito{
+    color: white;
+    font-size: .95em;
+    font-weight: bold;
+    text-align: center;
+    background: rgba(32, 28, 28, 0.1);
+}
+.Jjplay .campo-right .direito div:nth-child(1){
+    line-height: 1.8em;
+    font-size: .9em;
+    text-transform: uppercase;
+    margin-bottom: .5%;
+    background: rgba(18, 48, 139, 0.502);
+}
+.Jjplay .campo-right .direito div:nth-child(2){
+    line-height: 1.6em;
+    font-size: 1.05em;
+    border: 1px solid rgba(123, 54, 33, 0.854);
+    background: rgba(250, 231, 17, 0.21);
+}
+.Jjplay .campo-right .direito div:nth-child(3){
+    display: flex;
+    align-items: center;
+    line-height: .98em;
+    justify-content: center;
+    height: 37px;
+    margin-bottom: 2%;
+    letter-spacing: .05em;
+    text-shadow: 0px 1px 1px rgb(0, 0, 0);
+    background: rgba(250, 231, 17, 0.21);
+}
+.Jjplay .campo-right .direito div:nth-child(4){
+    line-height: 1.3em;
+    font-size: .95em;
+    padding: 1% 3%;
+    text-align: left;
+    letter-spacing: .05em;
+    margin-bottom: 2%;
+    text-shadow: 0px 1px 1px rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 0.1);
+}
+.Jjplay .campo-right .direito div:nth-child(4) .vermais{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:85px;
+  height: 0;
+  padding: 6% 0;
+  margin:6px auto;
+  border-radius:5px;
+  font-size:13px;
+  letter-spacing:0.1em;
+  color:rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.1);
+}
+.link-ativo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+    width:85px;
+    margin:6px auto;
+    padding:5px 0 5px 10px;
+    border-radius:5px;
+    font-size:13px;
+    letter-spacing:0.1em;
+    color:rgb(255, 255, 255);
+    animation: piscar 1s infinite;
+    background: rgba(255, 255, 255, 0.1);
+  }
+  .link-ativo img{width:20%;margin-right:5px;}
+  .link-ativo:hover{
+    background:rgba(34, 34, 34, 0.809);
+  }
+  @keyframes piscar {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.7;
+      background:rgba(156, 0, 0, 0.577);
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .Jjplay .campo-right .direito div:nth-child(5){
+    display: flex;
+    align-items: center;
+    font-size: .9em;
+    justify-content: center;
+    padding: 1.5% 0 1% 0;
+    margin-bottom: 1%;
+    text-transform: uppercase;
+    background: rgba(18, 48, 139, 0.502);
+  }
+  .Jjplay .campo-right .direito div:nth-child(6){
+    background: rgba(255, 255, 255, 0.1);
+  }
+  .Jjplay .campo-right .direito div:nth-child(6) a{
+    display: block;
+    text-align: left;
+    font-size: 1em;
+    border-bottom: 1.5px solid rgba(34, 34, 34, 0.2);
+    padding: 1.1% 4%;
+  }
+  .Jjplay .campo-right #Doar{
+    padding-bottom: 18.8%;
+    background: rgba(255, 255, 255, .1);
+  }
+  .Jjplay .campo-rigt .pix{
+    position: relative;
+    text-shadow: 0px 1px 1px rgb(0, 0, 0);
+  }
+  .Jjplay .campo-right .pix-interno{
+  }
+  .Jjplay .campo-right .pix .pix-interno div:nth-child(1){
+    font: 1em sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 1% 0;
+    margin-bottom: 5%;
+    background: rgb(11, 98, 139);
+  }
+  .Jjplay .campo-right .pix .pix-interno div:nth-child(2){
+    font: 1em sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-bottom: 3%;
+  }
+  .Jjplay .campo-right .pix div:nth-child(3){
+    font: 1em sans-serif;
+    font-weight: bold;
+    font-size: .9em;
+    margin-top: 5%;
+    
+  }
+  .Jjplay .campo-right .pix div:nth-child(3) .fa-pix{
+    font-size: 1.2em;
+    color: rgb(133, 201, 253);
+  }
+  .Jjplay .campo-right .pix div:nth-child(3) img{
+    width: 45%;
+  }
+  .Jjplay .video-responsive{
+    position: relative;
+    display: grid;
+    height: 300px;
+    background-color: aqua;
+  }
+  .Jjplay .video-responsive iframe{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .tablink {
+    color: #fff;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family:Cambria;
+    margin:0;
+    font-size:0.95em;
+    line-height:1.8em;
+    width:100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 136, 18, 0.3);
+  }
+  .tablink-left {
+    color: #fff;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family:Cambria;
+    margin:0;
+    font-size:0.95em;
+    line-height:1.8em;
+    width:50%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 136, 18, 0.3);
+  }
+  .tablink-right {
+    color: #fff;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family:Cambria;
+    margin:0;
+    font-size:0.95em;
+    line-height:1.8em;
+    width:50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 136, 18, 0.3);
+  }
+  .tablink-total {
+    color: #fff;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family:Cambria;
+    margin:0;
+    font-size:0.95em;
+    line-height:1.8em;
+    width:100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 136, 18, 0.3);
+  }
+  .tablink:hover,
+  .tablink-total,
+  .tablink-right:hover,
+  .tablink-left:hover {background-color: rgba(34, 34, 34, 0.6);color: #fff;}
+  .tabcontent {
+    color: white;
+    display: none;
+    text-align: center;
+  }
+
+@media (max-width:900px){
+  .Jjplay{margin: 0 !important;padding: 0 !important;display: grid;}
+  .Jjplay .campo-left{display: none;}
+  .Jjplay .campo-center{
+    width: 100% !important;
+    padding-bottom: 62.5%;
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+  }
+  .Jjplay .campo-right{
+    width: 100%;
+  }
+  .rec{padding-bottom: 4%;}
+  .Jjplay .campo-right .direito div:nth-child(1),
+  .Jjplay .campo-right .direito div:nth-child(2),
+  .Jjplay .campo-right .direito div:nth-child(3),
+  .Jjplay .campo-right .direito div:nth-child(4){display: none !important;}
+  .tablink{display: none !important;}
+}
