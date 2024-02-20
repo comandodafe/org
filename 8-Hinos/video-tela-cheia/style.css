@@ -1,0 +1,246 @@
+/*CAIXA
+---------------------------------*/
+.caixa{
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  display: grid;
+  grid-template-columns: 62.4% 36%;
+  grid-column-gap: 16px;
+  grid-row-gap: 20px;
+  box-sizing: border-box;
+}
+.caixa .direito .responsivo{
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 0;
+  height: 0;
+  padding-bottom: 62.4%;
+}
+.caixa .direito .responsivo iframe{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.caixa .direito .Actitulo{
+  color:rgb(0, 0, 0);
+  font-weight:bold;
+  font-size:18px;
+  padding:10px 10px;
+  background:rgba(255, 255, 255);
+}
+.caixa .direito .JLogo{
+  padding-bottom: 0;
+  display: grid;
+  grid-column-gap: 1px;
+  grid-row-gap: 20px;
+  margin-top: 2%;
+  box-sizing: border-box;
+  grid-template-columns: 85% auto;
+  background-color:#ccd;
+}
+.caixa .direito .JLogo .Jimg{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size:1.1vw;
+  line-height: .85em;
+  padding:0;
+}
+.caixa .direito .Jimg .miniperfil{
+  color: #000;
+}
+.caixa .direito .JLogo .Jimg span{font-size:.95vw;}
+.caixa .direito .JLogo .Jimg img{
+  display: flex;
+  align-items: center;
+  width:40px;
+  margin:0 8px 0 0;
+  border-radius:0 50% 50% 0;
+  background-color: #fff;
+}
+.caixa .direito .JLogo .Jimg .subscrib{
+  display: grid;
+  position: relative;
+  margin: 0 auto;
+  border-radius:5%;
+  padding: 0 5%;
+  font-size:1.3vw;
+  line-height: 1.3em;
+  font-family:Times New Roman;
+  text-align:center;
+  color:#ffffff !important;
+  background-color:#af0505;
+}
+.caixa .direito .discurso{
+  padding: 3% 2%;
+  background: rgba(255, 255, 255, .6);
+}
+.caixa .esquerdo .menulist{
+  grid-template-columns: 59% 30%;
+  display: grid;
+  grid-column-gap: 1px;
+  grid-row-gap: 0;
+  box-sizing: border-box;
+  justify-content: center;
+  padding: .8% 0;
+  margin:0;
+  background: rgba(255, 255, 255, 0.3);
+}
+.caixa .esquerdo .menulist .lista{
+  display: flex;
+  align-items: center;
+  padding:0;
+  color: white;
+  font-size: 1em;
+  letter-spacing: .1em;
+  font-weight: bold;
+  margin: 0;
+}
+.esquerdo .menulist .list{
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+}
+.esquerdo .menulist .list:hover{
+  background: rgba(255, 255, 255, 0.3);
+}
+.esquerdo .menulist .list a{
+  padding: 0 1% 0 1%;
+  font-size: .85em;
+}
+.esquerdo .botao{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1%;
+  background: rgba(0, 0, 0, 0.2);
+}
+.fa-circle-play{
+  font-size: 1em;
+  color: #ffffff;
+}
+.caixa .esquerdo .menulist .fa-angles-left{font-size: 19px;}
+.caixa .esquerdo .ativar.active{
+  position:relative;
+  z-index:1;
+  filter: grayscale(1);
+}
+.caixa .esquerdo .ativar.active .invi{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font: .85em sans-serif;
+  position:absolute;
+  color:#fff;
+  top:0;
+  left:0;
+  font-weight:bold;
+  z-index:111;
+  background: rgba(0, 0, 0, .6) url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8Bb_4VRV6FKkbZVq44BKNf4xxaUn0bR2zs3FpaVLGGnvmOKp6qBiIthLlpTPfdl4Prx4tnKXfQs40psr7T0B2J6ITI1iYL_mWJFc4zun66jTqpZltf4KGSyHeV-LbE3feApToDU1di2Rf1gF36ea_Gcbf_4pM8HA-BWvssRhkJgXg3YKeLmrlZZWpRFs/s20/picasion.com_4de8f196e1509dda45026e604d50de0f.gif) 50% 30% no-repeat;
+  background-size:8%;
+}
+.caixa .esquerdo .ativar .invi{display:none}
+.caixa .esquerdo .ativar{
+  display:flow-root;
+  margin-bottom: 5px;
+  position: relative;
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255) url(../../img/logotip.png) 100% 100% no-repeat;
+  background-size: 33%;
+}
+.caixa .esquerdo .fundo{
+  width: 168px;
+  height: 94.5px;
+  float: left;
+  margin-right: 5px;
+  position: relative;
+}
+.caixa .esquerdo .dat{
+  position: absolute;
+  bottom:0;
+  right: 0;
+  border-radius: 2%;
+  font-size: .9em !important;
+  padding: .5% 3%;
+  color: rgb(255, 255, 255);
+  background: rgba(0, 0, 0, .7);
+}
+.caixa .esquerdo .titulo{
+  font-size: .96em;
+  font-weight:bold;
+  padding: .5% 2%;
+  line-height: .95em;
+  margin: 1% 0 1.2% 0;
+  text-transform: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.caixa .esquerdo .nome{
+  font-size: 12px;
+  font-style: italic;
+  font-weight:bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.tablink {
+  padding:1% 3%;
+  color: #fff;
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin:0;
+  font-family:Cambria;
+  font-size:.95em;
+  background-color: rgba(255,255,255,0.2);
+}
+.tablink:hover {
+  background-color: rgba(1, 34, 164, 0.53);
+  }
+.tabcontent{display: none;}
+.subirt {
+  padding:1% 1%;
+  color: #fff;
+  text-align: center;
+  border: none;
+  outline: none;
+  margin:1% 1%;
+  font-family:Cambria;
+  font-size: .95em;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.paginar{display:none}
+.paginar2{display:block}
+.paginanum{margin-top:10px;color:#fff;}
+
+@media (max-width:900px){
+  .caixa{
+      padding-left: 0;
+      padding-right: 0;
+      grid-template-columns: 100% !important;
+  }
+  .caixa .direito .responsivo{width: 100% !important;}
+  .caixa .Actitulo{font-size: .95em !important;}
+  .caixa .Actitulo .JLogo{width: 100% !important;margin-top: 2%;grid-template-columns: 37% auto !important;background: transparent;}
+.caixa .direito .discurso{display: none;}
+ .caixa .esquerdo{padding: 0 2% 0 2% !important;}
+ .caixa .esquerdo .menulist .lisb{display: none;}
+ .caixa .esquerdo .menulist{grid-template-columns: 100% !important;}
+  .caixa .Actitulo .JLogo .eliminar{display:none !important}
+  .caixa .Actitulo .JLogo .Jimg{font-size:.75em !important;}
+  .caixa .Actitulo .JLogo .Jimg span{font-size:.7em !important;}
+  .caixa .Actitulo .JLogo .subscrib{font-size:1.3em !important;margin-top: 2%;}
+  .Lista{width: 100%;background: transparent;margin:0;}
+  .Lista .fundo{width: 90% !important;padding-bottom: 23.7%;display: block !important;position: relative;margin: 0 auto !important;float: none;}
+ 
+    .paginar{display:block !important;margin-bottom: 15%;}
+    .paginar2{display:none;}
+    .paracp{display:none !important;}
+}
