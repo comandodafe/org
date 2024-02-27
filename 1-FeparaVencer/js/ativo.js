@@ -1,1 +1,0 @@
-for(var ativo=document.getElementById("ativo"),Jplay=ativo.getElementsByClassName("Jplay"),i=0;i<Jplay.length;i++)Jplay[i].addEventListener("click",function(){var a=document.getElementsByClassName("active");a[0].className=a[0].className.replace(" active",""),this.className+=" active"});
