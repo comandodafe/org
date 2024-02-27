@@ -1,11 +1,11 @@
-body{
-  height:100vh;
-  background-image: linear-gradient(to right, rgb(0, 61, 159), rgba(159, 36, 36, 0.8)) !important;
-  }
-  * {
+* {
     margin: 0; 
     padding: 0;
   }
+body{
+  height:100vh;
+  background-image: linear-gradient(to right, rgb(0, 61, 159), rgba(159, 36, 36, 0.8)) !important;
+}
   a {
     color: #fff;
     text-decoration: none;
