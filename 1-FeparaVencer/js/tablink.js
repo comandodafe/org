@@ -1,0 +1,1 @@
+function openCity(e,t,n){for(var l,o=document.getElementsByClassName("tabcontent"),a=0;a<o.length;a++)o[a].style.display="none";for(l=document.getElementsByClassName("tablinke"),a=0;a<l.length;a++)l[a].style.backgroundColor="";document.getElementById(e).style.display="block",t.style.backgroundColor=n}document.getElementById("defaultOpen").click();
