@@ -1,0 +1,160 @@
+#sb-title-inner,#sb-info-inner,#sb-loading-inner,div.sb-message{
+font-family:"HelveticaNeue-Light","Helvetica Neue",Helvetica,Arial,sans-serif;
+font-weight:200;
+color:#000;
+}
+#sb-container{
+position:fixed;
+margin:0;
+padding:0;
+top:0;
+left:0;
+z-index:999999;
+text-align:left;
+visibility:hidden;
+display:none;
+}
+#sb-overlay{
+position:relative;
+height:100%;
+width:100%;
+}
+@media (max-width:900px){
+  #sb-overlay{
+  height:100%;
+  width:100%;
+  margin:0;
+  padding:0;
+}
+  }
+#sb-wrapper{
+position:absolute;
+visibility:hidden;
+width:100%;
+margin-top:-15px;
+}
+#sb-wrapper-inner{
+position:relative;
+border:3px solid #eee;
+overflow:hidden;
+height:100%;
+}
+#sb-body{
+position:relative;
+height:100%;
+}
+#sb-body-inner{
+position:absolute;
+height:100%;
+width:100%;
+}
+#sb-player.html{
+height:100%;
+overflow:auto;
+}
+#sb-body img{
+border:none;
+}
+#sb-loading{
+position:relative;
+height:100%;
+}
+#sb-loading-inner{
+position:absolute;
+font-size:20px;
+line-height:24px;
+height:24px;
+top:50%;
+margin-top:-12px;
+width:100%;
+text-align:center;
+}
+#sb-body,#sb-loading{
+background:#555 url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqZx_xV71Dmg5RG-Ibgmq0i_wNzavZFIEpozC1-rat-iEdFalBqKWSNZ3cxlwyPQ7jXVauXMYxmNmVFJvddcme1PLR2wNWoEOPpVqbcZ1vc9k0JoZKgXb3rPVr3L_mD9Mip9bIt4hG6lHhHSxlc7ysTHRLZub1ak_Pn-ZJl41UksfYWvEnwfg6vgih/s198/ajax-loading-gif-transparent-background-2.gif') no-repeat;
+background-size:15%;
+background-position: 50% 50%;
+}
+#sb-title,#sb-info{
+margin:0;
+padding:0;
+overflow:hidden;
+}
+#sb-title,#sb-title-inner{
+line-height:26px;
+}
+#sb-title-inner{
+color:#000;
+line-height:1.2em;
+font-size:15px;
+padding:3px 10px 3px 10px;
+Background-color:#eee;
+}
+#sb-info,#sb-info-inner{
+height:30px;
+line-height:20px;
+}
+#sb-info-inner{
+font-size:12px;
+}
+#sb-nav{
+height:25px;
+padding:0;
+width:100%;
+background-color: #fff;
+}
+#sb-nav a{
+display:block;
+float:right;
+height:30px;
+width:35px;
+margin-left:3px;
+cursor:pointer;
+background-repeat:no-repeat;
+}
+#sb-nav-close{
+margin:0 -10px 0 0;
+background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhT7Rsd9Njl29EJtBqU1iifh1DuBPzxYUEmwP2vXR6KheCxDOYo5CQ_n5Bq2n2SbVz8U36OWxpjC-94xNq5hOPHZIUcAZxawasJmhtZLkL6Ce2q3QJeR5oT8RbjPEU5rToTOhs49Pku28mZXepBotukFONaoMJL77MG19xQ30_VlePL5xcfOqcaeem9dA/s16/close_FILL0_wght400_GRAD0_opsz48.png);
+background-size:25px;
+}
+#sb-nav-next{
+background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi49J2IU70Bm951e4i7jum-Mi9ubQ4VUlDrBnJ3k3jrxSFdAVCYkzNQI-ck_crjbgMSxf2GmBNXe7uJIBr_DLIYbOr8JOSgOWiNrNbfwy0KQjzSJrJxv0oQbJtMCqe5cf8j5SZ8HNH9Rj_sHiyB2XD_4Zcggv2t2TK6PLOleZ6aWtrhdggJPYq-2kRhSw/s16/next.png);
+background-size:20px;
+margin-top:2px;
+margin-left:15px;
+margin-right:20px;
+}
+#sb-nav-previous{
+background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCkE0aNAG247Bu6412PJSSHSKGr04Lj_K-h-68JG1x3V-pbrzyKgeYCHVOv939hqSlewY4MYjW8hRxIckTFXyMAgY_HZp8ISUCmhY_KOQXMLaibjrxIgAdEcT6U9NY52sSqLYTSPUf8hUedVJ6G5geOHQnbOu-7lJbzd7qD1p5sqBW0sibVExlh8JkPQ/s16/previous.png);
+background-size:20px;
+margin-top:2px;
+margin-right:15px;
+}
+#sb-nav-play{
+background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfNG1ElManhfh1aR94jIvJuQpx8EWDt81SS3up8yM7t8LpFtFFHY5x5kXC1_jFswhL0P7XdDVi2C5aosneC71USpVQZ0-GZ1iw7ybGlWSfrCBtBE6Qapaj2zItQXLqtSeTUZjG-PvjozShqgbVeWkqpVpyasRMnIMzKHa6cbzL6kQev9ckYf6iiPC9ZQ/s16/play.png);
+}
+#sb-nav-pause{
+background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinA7-BJ-oFHQK80VVK4KQya6UZt3zWXJTs8usPgUegND9-xdIHx-L26UEWKvAX7EI7pSB3VPsEJDEa5OtC4DsaJIEnRY74IT63zOWz90PSt06TUAXKjHrfPAYWFxPCH6wwieYQA6zIW1oFlA6RZIaT6F4QnrQMvHjKan6MbvgH2s_ABfbPvu8i7RXvGg/s16/pause.png);
+}
+#sb-counter{
+float:left;
+width:45%;
+padding:3px 0 0 5px;
+}
+#sb-counter a{
+padding:0 4px 0 0;
+text-decoration:none;
+cursor:pointer;
+color:#000;
+}
+#sb-counter a.sb-counter-current{
+text-decoration:underline;
+}
+div.sb-message{
+font-size:12px;
+padding:10px;
+text-align:center;
+}
+div.sb-message a:link,div.sb-message a:visited{
+color:#fff;
+text-decoration:underline;
+}
